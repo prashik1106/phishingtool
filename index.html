@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Stay Safe!!!</h1>
+            <p>Learn to spot phishing attempts!</p>
+        </header>
+        <main>
+            <section class="phishing-form">
+                <h2>Simulated Phishing Page</h2>
+                <form id="phishing-form">
+                    <input type="text" placeholder="Email" required><br>
+                    <input type="password" placeholder="Password" required><br>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="warning-message" class="hidden"></p>
+            </section>
+            <section class="compare-link">
+                <p>
+                    Want to see a legitimate page? 
+                    <a href="legitimate.html">Click here for comparison</a>
+                </p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
